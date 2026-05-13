@@ -1,0 +1,64 @@
+baseURL: "https://edingx.github.io/"
+languageCode: "zh-cn"
+title: "Sean Tech Blog"
+theme: "PaperMod"
+
+pagination:
+  pagerSize: 10
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production
+  title: "Sean Tech Blog"
+  description: "技术博客"
+  keywords: [Blog, Tech, Hugo]
+  author: "Sean"
+
+  defaultTheme: auto
+  ShowShareButtons: true
+  ShowReadingTime: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: true
+  ShowBreadCrumbs: true
+  ShowPostNavLinks: true
+  ShowToc: true
+  TocOpen: true
+
+  homeInfoParams:
+    Title: "Sean 的技术博客"
+    Content: "全栈 / AI / 企业架构 / 数字化"
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/edingx"
+
+menu:
+  main:
+    - identifier: archives
+      name: 归档
+      url: /archives/
+      weight: 10
+
+    - identifier: categories
+      name: 分类
+      url: /categories/
+      weight: 20
+
+    - identifier: tags
+      name: 标签
+      url: /tags/
+      weight: 30
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
