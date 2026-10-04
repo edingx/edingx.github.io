@@ -1,11 +1,10 @@
-+++
-title: '从 Claude Code 到小龙虾：AI Agent 的三次"搬家"'
-date: 2026-09-10
+---
+title: "从 Claude Code 到小龙虾，再到办公智能体平台"
+date: 2026-09-17
 draft: false
 tags: ["AI"]
 categories: ["Blog"]
-
-+++
+---
 
 # 从 Claude Code 到"小龙虾"，再到办公智能体平台：一条线看懂 Agent 的三次迁移
 
